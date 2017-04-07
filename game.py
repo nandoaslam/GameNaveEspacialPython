@@ -14,7 +14,7 @@ ship = {
     'surface': pygame.image.load('imagens/nave.png').convert_alpha(),
     'position': [randrange(900), randrange(400)],
     'speed': {'x': 0, 'y': 0}
-}
+       }
 
 pygame.display.set_caption('Asteroides')
 
