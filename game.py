@@ -11,7 +11,7 @@ background_filename = 'imagens/fundo.jpg'
 background = pygame.image.load(background_filename).convert()
 
 ship = {
-    'surface': pygame.image.load('imagens/ship.png').convert_alpha(),
+    'surface': pygame.image.load('imagens/ship.png').convert_alpha()
     'position': [randrange(900), randrange(400)],
     'speed': {
         'x': 0,
