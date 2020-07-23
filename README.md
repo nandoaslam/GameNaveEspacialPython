@@ -1,4 +1,4 @@
-##Game Nave Espacial com PythonGame Nave Espacial com Python
+#Game Nave Espacial com PythonGame Nave Espacial com Python
 
 Utilizando a biblioteca Pygame, foi desenvolvido um jogo simples, onde um nave tem por objetivo desvia dos asteróides, que com o decorrer do tempo começam a vir cada vez mais rápido.
 
