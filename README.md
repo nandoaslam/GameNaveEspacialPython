@@ -4,12 +4,19 @@ Utilizando a biblioteca Pygame, foi desenvolvido um jogo simples, onde um nave t
 
 Iniciamos o jogo chamado a biblioteca e definindo o tamanho padrão da tela.
 
-    pygame.init()
-    
-    screen = pygame.display.set_mode((900, 400), 0, 32)
-    
-    background_filename = 'imagens/fundo.jpg'
-    background = pygame.image.load(background_filename).convert()
+```python
+import pygame
+from pygame.locals import *
+from sys import exit
+from random import randrange
+
+pygame.init()
+
+screen = pygame.display.set_mode((900, 400), 0, 32)
+
+background_filename = 'imagens/fundo.jpg'
+background = pygame.image.load(background_filename).convert()
+```
 
 ##### Screenshots do Jogo:
 
